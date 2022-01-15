@@ -1,5 +1,5 @@
 import axios from 'axios'
-const PRODUCT_API_URL = 'https://product-app-101.herokuapp.com/product';
+const PRODUCT_API_URL = 'http://product-app-101.herokuapp.com/product';
 class ProductService {
     retrieveAllProducts(){
          return axios.get(`${PRODUCT_API_URL}`);
